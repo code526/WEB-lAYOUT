@@ -1,0 +1,24 @@
+.toolbar_color{
+    background: rgba(255, 166, 0, 0);
+    color: aliceblue;
+    position: fixed;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.toolbar_element{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.main_row{
+  width:100%;
+  height: 100%;
+  overflow-y: scroll;
+
+} 
+.main_row::-webkit-scrollbar {
+  display: none;
+}
